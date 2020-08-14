@@ -6,7 +6,7 @@
             <yield/>
         </requirements>
     </xml>
-    <token name="@TOOL_VERSION@">0.3.7</token>
+    <token name="@TOOL_VERSION@">0.4.2</token>
     <token name="@WRAPPER_VERSION@">@TOOL_VERSION@</token>
     <xml name="stdio">
         <stdio>

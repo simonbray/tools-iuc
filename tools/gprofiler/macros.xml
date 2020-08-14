@@ -3,12 +3,12 @@
     <xml name="requirements">
         <requirements>
             <requirement type="package" version="@TOOL_VERSION@">r-gprofiler2</requirement>
-            <requirement type="package" version="2.7.3">pandoc</requirement>
+            <requirement type="package" version="2.10.1">pandoc</requirement>
             <yield />
         </requirements>
     </xml>
 
-    <token name="@TOOL_VERSION@">0.1.7</token>
+    <token name="@TOOL_VERSION@">0.1.9</token>
     <token name="@VERSION@">@TOOL_VERSION@+galaxy11</token>
 
     <xml name="version_command">
