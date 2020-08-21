@@ -4,7 +4,7 @@
         <import>macros.xml</import>
     </macros>
     <requirements>
-        <requirement type="package" version="@TOOL_VERSION@">kma</requirement>
+        <requirement type="package" version="@TOOL_VERSION@+galaxy0">kma</requirement>
     </requirements>
     <version_command>kma -v</version_command>
     <command detect_errors="exit_code">

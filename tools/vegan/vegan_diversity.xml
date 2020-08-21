@@ -1,4 +1,4 @@
-<tool id="vegan_diversity" name="Vegan Diversity" version="@TOOL_VERSION@">
+<tool id="vegan_diversity" name="Vegan Diversity" version="@TOOL_VERSION@+galaxy0">
     <description>
         index
     </description>

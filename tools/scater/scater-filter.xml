@@ -1,4 +1,4 @@
-<tool id="scater_filter" name="Scater: filter SCE" version="@TOOL_VERSION@">
+<tool id="scater_filter" name="Scater: filter SCE" version="@TOOL_VERSION@+galaxy0">
     <description>with user-defined parameters or PCA</description>
     <macros>
         <import>macros.xml</import>

@@ -1,4 +1,4 @@
-<tool id="vg_view" name="vg view" version="@TOOL_VERSION@">
+<tool id="vg_view" name="vg view" version="@TOOL_VERSION@+galaxy0">
     <description></description>
     <macros>
         <import>macros.xml</import>

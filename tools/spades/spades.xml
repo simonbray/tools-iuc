@@ -1,10 +1,10 @@
-<tool id="spades" name="SPAdes" version="@TOOL_VERSION@+galaxy1">
+<tool id="spades" name="SPAdes" version="@TOOL_VERSION@+galaxy0">
     <description>genome assembler for regular and single-cell projects</description>
     <macros>
         <import>macros.xml</import>
     </macros>
     <requirements>
-        <requirement type="package" version="@TOOL_VERSION@">spades</requirement>
+        <requirement type="package" version="@TOOL_VERSION@+galaxy0">spades</requirement>
     </requirements>
     <stdio>
         <exit_code range="1:" />

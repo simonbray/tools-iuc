@@ -1,10 +1,10 @@
 <tool id="miniasm" name="miniasm" version="@TOOL_VERSION@+galaxy0">
     <description>Ultrafast de novo assembly for long noisy reads </description>
     <macros>
-        <token name="@TOOL_VERSION@">0.3</token>
+        <token name="@TOOL_VERSION@">0.3_r179</token>
     </macros>
     <requirements>
-        <requirement type="package" version="@TOOL_VERSION@">miniasm</requirement>
+        <requirement type="package" version="@TOOL_VERSION@+galaxy0">miniasm</requirement>
     </requirements>
     <version_command>miniasm -V</version_command>
     <command detect_errors="exit_code"><![CDATA[

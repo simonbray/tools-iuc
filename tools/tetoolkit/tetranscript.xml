@@ -2,10 +2,10 @@
 <tool id="tetoolkit_tetranscripts" name="TEtranscripts" version="@TOOL_VERSION@+galaxy0">
     <description>annotates reads to genes and transposable elements</description>
     <macros>
-        <token name="@TOOL_VERSION@">2.2.0</token>
+        <token name="@TOOL_VERSION@">2.2.1</token>
     </macros>
     <requirements>
-        <requirement type="package" version="@TOOL_VERSION@">tetranscripts</requirement>
+        <requirement type="package" version="@TOOL_VERSION@+galaxy0">tetranscripts</requirement>
     </requirements>
     <version_command>TEtranscripts --version</version_command>
     <command detect_errors="exit_code"><![CDATA[

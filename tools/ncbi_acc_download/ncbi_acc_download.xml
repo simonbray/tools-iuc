@@ -4,7 +4,7 @@
         <import>macros.xml</import>
     </macros>
     <requirements>
-        <requirement type="package" version="@TOOL_VERSION@">ncbi-acc-download</requirement>
+        <requirement type="package" version="@TOOL_VERSION@+galaxy0">ncbi-acc-download</requirement>
     </requirements>
     <command detect_errors="exit_code"><![CDATA[
         #if $query_source.select == "accession_file":

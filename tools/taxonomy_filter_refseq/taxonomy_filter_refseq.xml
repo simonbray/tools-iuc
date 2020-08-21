@@ -1,7 +1,7 @@
 <tool id="taxonomy_filter_refseq" name="Filter RefSeq by taxonomy" version="@TOOL_VERSION@+galaxy0">
     <description>Only retain sequences that are descendants of a given taxonomic node.</description>
     <macros>
-        <token name="@TOOL_VERSION@">0.3.0</token>
+        <token name="@TOOL_VERSION@">1.0.7</token>
     </macros>
     <edam_topics>
         <edam_topic>topic_0091</edam_topic>
@@ -10,7 +10,7 @@
         <edam_operation>operation_3460</edam_operation>
     </edam_operations>
     <requirements>
-        <requirement type="package" version="@TOOL_VERSION@">rust-ncbitaxonomy</requirement>
+        <requirement type="package" version="@TOOL_VERSION@+galaxy0">rust-ncbitaxonomy</requirement>
     </requirements>
     <!-- current using redirect to output rather than output to file due to bug in pre-0.1.4 rust-ncbitaxonomy -->
     <command detect_errors="aggressive"><![CDATA[
