@@ -1,4 +1,4 @@
-<tool id="scater_normalize" name="Scater: normalize SCE" version="@TOOL_VERSION@">
+<tool id="scater_normalize" name="Scater: normalize SCE" version="@TOOL_VERSION@+galaxy0">
     <description>Compute normalised expression values for SCE</description>
     <macros>
         <import>macros.xml</import>
