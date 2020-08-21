@@ -4,7 +4,7 @@
         <import>macros.xml</import>
     </macros>
     <requirements>
-        <requirement type="package" version="3.8">python</requirement>
+        <requirement type="package" version="3.8.5">python</requirement>
         <requirement type="package" version="@TOOL_VERSION@">spaln</requirement>
         <requirement type="package" version="1.0.7">rust-ncbitaxonomy</requirement>
     </requirements>

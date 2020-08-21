@@ -1,4 +1,4 @@
-<tool id="tabular_to_fastq" name="Tabular to FASTQ" version="@TOOL_VERSION@">
+<tool id="tabular_to_fastq" name="Tabular to FASTQ" version="@TOOL_VERSION@+galaxy0">
     <description>converter</description>
     <edam_topics>
         <edam_topic>topic_0622</edam_topic>

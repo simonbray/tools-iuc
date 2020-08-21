@@ -1,4 +1,4 @@
-<tool id="migmap" name="MiGMAP" version="@TOOL_VERSION@">
+<tool id="migmap" name="MiGMAP" version="@TOOL_VERSION@+galaxy0">
     <description>mapper for full-length T- and B-cell repertoire sequencing
     </description>
     <macros>

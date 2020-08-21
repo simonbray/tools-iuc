@@ -1,4 +1,4 @@
-<tool id="odgi_build" name="odgi build" version="@TOOL_VERSION@">
+<tool id="odgi_build" name="odgi build" version="@TOOL_VERSION@+galaxy0">
     <description>construct a dynamic succinct variation graph</description>
     <macros>
         <import>macros.xml</import>
