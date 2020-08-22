@@ -1,7 +1,7 @@
-<tool id="minia" name="Minia" version="@TOOL_VERSION@">
+<tool id="minia" name="Minia" version="@TOOL_VERSION@+galaxy0">
     <description>Short-read assembler based on a de Bruijn graph</description>
     <macros>
-        <token name="@TOOL_VERSION@">3.2.1</token>
+        <token name="@TOOL_VERSION@">3.2.4</token>
     </macros>
     <requirements>
         <requirement type="package" version="@TOOL_VERSION@">minia</requirement>
