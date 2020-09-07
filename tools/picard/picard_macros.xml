@@ -20,7 +20,7 @@
        </sanitizer>
     </xml>
 
-    <token name="@TOOL_VERSION@">2.18.2</token>
+    <token name="@TOOL_VERSION@">2.23.4</token>
 
     <xml name="requirements">
         <requirements>
