@@ -1,17 +1,17 @@
 <macros>
-  <token name="@TOOL_VERSION@">1.10</token>
+  <token name="@TOOL_VERSION@">1.11</token>
   <xml name="requirements">
     <requirements>
       <requirement type="package" version="@TOOL_VERSION@">bcftools</requirement>
-      <requirement type="package" version="1.10">htslib</requirement>
+      <requirement type="package" version="1.11">htslib</requirement>
       <yield />
     </requirements>
   </xml>
   <xml name="samtools_requirement">
-      <requirement type="package" version="1.10">samtools</requirement>
+      <requirement type="package" version="1.11">samtools</requirement>
   </xml>
   <xml name="matplotlib_requirement">
-      <requirement type="package" version="3.1.0">matplotlib</requirement>
+      <requirement type="package" version="3.3.4">matplotlib</requirement>
   </xml>
   <xml name="version_command">
     <version_command>bcftools 2&gt;&amp;1 | grep 'Version:'</version_command>

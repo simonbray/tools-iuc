@@ -5,7 +5,7 @@
     </macros>
     <!-- bedtobam broken in 2.29.0 <expand macro="requirements" /> -->
     <requirements>
-        <requirement type="package" version="2.27.1">bedtools</requirement>
+        <requirement type="package" version="2.30.0">bedtools</requirement>
     </requirements>
     <expand macro="stdio" />
     <command><![CDATA[

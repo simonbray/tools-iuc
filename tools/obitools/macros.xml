@@ -6,7 +6,7 @@
         </requirements>
     </xml>
 
-    <token name="@TOOL_VERSION@">1.2.11</token>
+    <token name="@TOOL_VERSION@">1.2.13</token>
 
     <xml name="stdio">
         <stdio>
